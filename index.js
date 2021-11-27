@@ -19,7 +19,6 @@
 
 // Debemos aprovechar la potencia de los bucles para no rellenar nuestro fichero de código repetido.
 
-var posicion = 0;
 var piramide = " ";
 var almacen = " ";
 
