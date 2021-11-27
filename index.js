@@ -21,16 +21,15 @@
 var posicion = 0;
 var piramide=[""];
 for (var i = 1;i < 10; i++){
-  for (var j = i; j >= 0;j--){
-    if (j = 0){
+  for (var j = i; j > 0;j--){
+    if (j < 1){
       console.log("paso por aqui");
-      piramide[posicion] =  + '\n';
+      piramide[posicion] += '\n';
     } else {
       piramide[posicion] = i;
     }
     posicion += 1;
   } 
-  //j = i;
 }
     
 console.log(piramide);
